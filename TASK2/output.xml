@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.10.4 on win32)" generated="20230602 23:24:01.751" rpa="false" schemaversion="3">
+<suite id="s1" name="Task2" source="E:\BELAJARQA\RBF\TASK2\task2.robot">
+<test id="s1-t1" name="Iterate over two lists manually" line="10">
+<for flavor="IN ZIP">
+<var>${x}</var>
+<value>${LIST1}</value>
+<value>${LIST2}</value>
+<iter>
+<var name="${x}">('a', '1')</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${x}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230602 23:24:01.781" endtime="20230602 23:24:01.781"/>
+</kw>
+<status status="PASS" starttime="20230602 23:24:01.781" endtime="20230602 23:24:01.781"/>
+</iter>
+<iter>
+<var name="${x}">('b', '2')</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${x}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230602 23:24:01.782" endtime="20230602 23:24:01.782"/>
+</kw>
+<status status="PASS" starttime="20230602 23:24:01.781" endtime="20230602 23:24:01.782"/>
+</iter>
+<iter>
+<var name="${x}">('c', '3')</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${x}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230602 23:24:01.782" endtime="20230602 23:24:01.783"/>
+</kw>
+<status status="PASS" starttime="20230602 23:24:01.782" endtime="20230602 23:24:01.783"/>
+</iter>
+<iter>
+<var name="${x}">('d', '4')</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${x}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230602 23:24:01.783" endtime="20230602 23:24:01.784"/>
+</kw>
+<status status="PASS" starttime="20230602 23:24:01.783" endtime="20230602 23:24:01.784"/>
+</iter>
+<status status="PASS" starttime="20230602 23:24:01.780" endtime="20230602 23:24:01.784"/>
+</for>
+<status status="PASS" starttime="20230602 23:24:01.780" endtime="20230602 23:24:01.784"/>
+</test>
+<status status="PASS" starttime="20230602 23:24:01.753" endtime="20230602 23:24:01.786"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Task2">Task2</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

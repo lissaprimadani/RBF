@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.10.4 on win32)" generated="20230601 21:54:02.141" rpa="false" schemaversion="3">
+<suite id="s1" name="Task1" source="E:\BELAJARQA\RBF\TASK1\task1.robot">
+<test id="s1-t1" name="Test Kancil makan timun" line="11">
+<kw name="Given Step 1" library="task1">
+<kw name="Log" library="BuiltIn">
+<arg>Saya punya ${timun_awal}.</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230601 21:54:02.213" level="INFO">Saya punya 5.</msg>
+<status status="PASS" starttime="20230601 21:54:02.213" endtime="20230601 21:54:02.213"/>
+</kw>
+<status status="PASS" starttime="20230601 21:54:02.212" endtime="20230601 21:54:02.213"/>
+</kw>
+<kw name="When Step 2" library="task1">
+<kw name="Log" library="BuiltIn">
+<arg>Dalam perjalanan saya bertemu kancil,</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230601 21:54:02.214" level="INFO">Dalam perjalanan saya bertemu kancil,</msg>
+<status status="PASS" starttime="20230601 21:54:02.214" endtime="20230601 21:54:02.214"/>
+</kw>
+<status status="PASS" starttime="20230601 21:54:02.214" endtime="20230601 21:54:02.214"/>
+</kw>
+<kw name="And Step 3" library="task1">
+<kw name="Log" library="BuiltIn">
+<arg>dan timun saya dimakan ${timun_dimakan}.</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230601 21:54:02.215" level="INFO">dan timun saya dimakan 2.</msg>
+<status status="PASS" starttime="20230601 21:54:02.215" endtime="20230601 21:54:02.215"/>
+</kw>
+<status status="PASS" starttime="20230601 21:54:02.215" endtime="20230601 21:54:02.216"/>
+</kw>
+<kw name="Then Step 4" library="task1">
+<kw name="Log" library="BuiltIn">
+<arg>Timun saya sekarang tinggal ${timun_sisa}.</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230601 21:54:02.217" level="INFO">Timun saya sekarang tinggal 3.</msg>
+<status status="PASS" starttime="20230601 21:54:02.216" endtime="20230601 21:54:02.217"/>
+</kw>
+<status status="PASS" starttime="20230601 21:54:02.216" endtime="20230601 21:54:02.217"/>
+</kw>
+<status status="PASS" starttime="20230601 21:54:02.212" endtime="20230601 21:54:02.217"/>
+</test>
+<status status="PASS" starttime="20230601 21:54:02.143" endtime="20230601 21:54:02.221"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Task1">Task1</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20230601 21:54:02.174" level="ERROR">Error in file 'E:\BELAJARQA\RBF\TASK1\task1.robot' on line 3: Importing library 'Colletions' failed: ModuleNotFoundError: No module named 'Colletions'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  E:\BELAJARQA\RBF\rbf\Scripts\robot.exe
+  C:\Program Files (x86)\Python\python310.zip
+  C:\Program Files (x86)\Python\DLLs
+  C:\Program Files (x86)\Python\lib
+  C:\Program Files (x86)\Python
+  E:\BELAJARQA\RBF\rbf
+  E:\BELAJARQA\RBF\rbf\lib\site-packages</msg>
+<msg timestamp="20230601 21:54:02.180" level="ERROR">Error in file 'E:\BELAJARQA\RBF\TASK1\task1.robot' on line 5: Importing library 'Selenium' failed: ModuleNotFoundError: No module named 'Selenium'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  E:\BELAJARQA\RBF\rbf\Scripts\robot.exe
+  C:\Program Files (x86)\Python\python310.zip
+  C:\Program Files (x86)\Python\DLLs
+  C:\Program Files (x86)\Python\lib
+  C:\Program Files (x86)\Python
+  E:\BELAJARQA\RBF\rbf
+  E:\BELAJARQA\RBF\rbf\lib\site-packages</msg>
+<msg timestamp="20230601 21:54:02.190" level="ERROR">Error in file 'E:\BELAJARQA\RBF\TASK1\task1.resource' on line 3: Importing library 'Colletions' failed: ModuleNotFoundError: No module named 'Colletions'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  E:\BELAJARQA\RBF\rbf\Scripts\robot.exe
+  C:\Program Files (x86)\Python\python310.zip
+  C:\Program Files (x86)\Python\DLLs
+  C:\Program Files (x86)\Python\lib
+  C:\Program Files (x86)\Python
+  E:\BELAJARQA\RBF\rbf
+  E:\BELAJARQA\RBF\rbf\lib\site-packages</msg>
+<msg timestamp="20230601 21:54:02.196" level="ERROR">Error in file 'E:\BELAJARQA\RBF\TASK1\task1.resource' on line 5: Importing library 'Selenium' failed: ModuleNotFoundError: No module named 'Selenium'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  E:\BELAJARQA\RBF\rbf\Scripts\robot.exe
+  C:\Program Files (x86)\Python\python310.zip
+  C:\Program Files (x86)\Python\DLLs
+  C:\Program Files (x86)\Python\lib
+  C:\Program Files (x86)\Python
+  E:\BELAJARQA\RBF\rbf
+  E:\BELAJARQA\RBF\rbf\lib\site-packages</msg>
+</errors>
+</robot>
